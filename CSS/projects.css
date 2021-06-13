@@ -1,0 +1,155 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+
+.projects{
+  background-image: url("../backgrounds/openroom.gif");
+}
+
+.project{
+  background-image: url("../backgrounds/openroom.gif");
+}
+
+html,body{
+  
+  width:100%;
+  height:100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -ms-interpolation-mode: bicubic;
+  background-attachment:fixed;
+}
+
+/*MAIN CONTAINER*/
+.main{
+  color:white;
+  position:absolute;
+  width:100%;
+  top:2vh;
+  /*font-family: 'Titillium Web', sans-serif;*/
+  font-family: 'Share Tech Mono', monospace;
+  vertical-align:50;
+  text-size-adjust:auto;
+  
+  
+}
+.main h1{
+  font-size: 8vh;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.main p{
+  font-size: 6vh;
+}
+
+.menu,.social{
+  width:100%;
+  margin-top:5px;
+  
+}
+
+/*NAV LINKS*/
+.menu a{
+  color: white;
+  text-decoration: none;
+  font-size: 6vh;  
+  padding:10px; 
+  margin:10px; 
+  font-weight:bold;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+
+}
+
+.menu a:hover{
+  color:black;
+  -webkit-text-stroke-color: white;
+  text-decoration: none;
+  
+  
+}
+
+/*PROJECT BLOCKS IN PROJECTS.HTML*/
+.projectblock{
+  color:white;
+  width:75vw;
+  height:auto;
+  padding:10px;
+  margin:10px;
+  text-align:center;
+  border:3px double black;
+  display:block;
+  overflow: hidden;
+  background-color: #000000AA;
+}
+
+.projectblock .title{
+  font-size:6vh;
+}
+
+.projectblock .desc{
+  font-size:4vh;
+  width:auto;
+  text-align:center;
+}
+
+.projectblock img{
+  height:auto;
+  max-width:30vh;
+  float:left;
+}
+
+.projectblock a{
+  color: white;
+  font-size: 7vh;
+  text-decoration: none;
+  font-weight: bold;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.projectblock a:hover{
+  color:black;
+  -webkit-text-stroke-color: white;
+}
+
+/*EVERY PROJECT HTML*/
+.projectdata{
+  color:white;
+  width:75vw;
+  height:auto;
+  padding:10px;
+  margin:10px;
+  text-align:center;
+  border:3px double black;
+  display:block;
+  overflow: hidden;
+  background-color: #000000AA;
+}
+
+.projectdata a{
+  color: white;
+  text-decoration: none;
+  font-size: 6vh;
+  font-weight: bold;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
+
+.projectdata a:hover{
+  color:black;
+  -webkit-text-stroke-color: white;
+}
+
+.projectdata p{
+  font-size: 5vh;
+  text-align:center;
+}
+
+
+
+
+

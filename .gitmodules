@@ -1,0 +1,6 @@
+[submodule "projects/animedoro-timer"]
+	path = projects/animedoro-timer
+	url = https://github.com/ankushKun/animedoro-timer.git
+[submodule "projects/split-pfp"]
+	path = projects/split-pfp
+	url = https://github.com/ankushKun/split-pfp.git

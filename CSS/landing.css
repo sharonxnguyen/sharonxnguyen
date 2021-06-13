@@ -1,0 +1,92 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+
+html,body{
+  background-image: url("../backgrounds/openroom.gif");
+  width:100%;
+  height:100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -ms-interpolation-mode: bicubic;
+  background-attachment:fixed;
+}
+
+/* CSS for landing page */
+.home-main{
+  color:white;
+  position:absolute;
+  width:100%;
+  top:25vh;
+  /* font-family: 'gt cinetype', sans-serif; */
+  /* font-family: 'Titillium Web', sans-serif; */
+  font-family: 'Share Tech Mono', monospace;
+  vertical-align:50;
+  text-size-adjust:auto;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.home-main h1{
+  font-size: 8vh;
+}
+
+.home-main p{
+  font-size: 6vh;
+}
+
+.menu,.social{
+  width:100%;
+  margin-top:5px;
+  
+}
+
+/*NAV LINKS*/
+.menu a{
+  color: white;
+  text-decoration: none;
+  font-size: 6vh;  
+  padding:10px; 
+  margin:10px; 
+  font-weight:bold;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.menu a:hover{
+  color:black;
+  text-decoration: none;
+  -webkit-text-stroke-color: white;
+}
+
+/*SOCIAL ICONS*/
+.social img{
+  padding: 10px;
+  margin:5px;
+  width: 8vh;
+  overflow:ignore;
+  -webkit-filter: drop-shadow(1px 1px 0 black)
+                  drop-shadow(-1px -1px 0 black);
+  filter: drop-shadow(1px 1px 0 black) 
+          drop-shadow(-1px -1px 0 black)
+          ;
+}
+
+.social img:hover {
+  -webkit-filter: drop-shadow(1px 1px 0 black)
+                  drop-shadow(-1px -1px 0 black);
+  filter: drop-shadow(1px 1px 0 black) 
+          drop-shadow(-1px -1px 0 black)
+          invert(100%);
+}
+
+/* animated text WIP*/
+.typeweriter-anim{
+  animation-name:typewriter;
+  animation-duration:5s;
+}
+
+
+
