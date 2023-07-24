@@ -1,3 +1,3 @@
-### Portfolio site for my projects
+### Web Project
 
 Made using HTML, CSS and JS
